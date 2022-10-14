@@ -6,7 +6,9 @@
 #Week06
 ##step01-0
 考試九九乘法表 考前複習 ,考後檢討同學出錯的狀況
-...cpp
+cpp
+
+
 #include<stdio.h>
 int main()
 {
