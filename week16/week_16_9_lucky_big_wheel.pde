@@ -3,7 +3,7 @@ void setup(){
 }
 void draw(){
   background(#FFFFF2);
-  float dx = radians(mouseX);
+
   for(int i=0;i<24;i++){
     if(i==0)fill(#F58123);
     else if(i%3==0)fill(0,0,0);
@@ -13,7 +13,7 @@ void draw(){
   arc(200,200,300,300,a*i+dx,a*i+a+dx, PIE);
 }
 
-dx-=v;
+dx+=v;
 v=v*0.95;
 }
 float oldX=0,dx=0,v=0;
